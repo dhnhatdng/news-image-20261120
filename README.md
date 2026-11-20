@@ -1,27 +1,31 @@
-# news-image-20261120
+# The world on 20 November 2026, in one image
 
 [![make.fun · news-image-20261120](https://make.fun/badge/news-image-20261120.svg)](https://make.fun/bounty/news-image-20261120?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261120)
 [![rank](https://make.fun/badge/news-image-20261120/dhnhatdng/news-image-20261120/rank.svg)](https://make.fun/bounty/news-image-20261120/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261120)
 [![reward](https://make.fun/badge/news-image-20261120/dhnhatdng/news-image-20261120/reward.svg)](https://make.fun/bounty/news-image-20261120?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261120)
 
-One image that sums up the world's news of Friday 20 November 2026, laid out as a newspaper front page: Trump, Xi and Putin agree a peace declaration after their first-ever three-way summit in Shenzhen, Anthropic soars 17% on its Nasdaq debut, the World Court rules Myanmar committed genocide against the Rohingya, Cyclone Akvan makes landfall in India, Hormuz tanker attacks escalate, and a Houthi strike hits Riyadh's tallest tower. Every headline was checked against AP, Reuters, BBC, AFP, the Japan Times, The Hindu and The Standard reporting of the day.
+Friday 20 November 2026, summed up on a single newspaper front page. The lead story is the first-ever Trump–Xi–Putin summit in Shenzhen, which closed with a joint peace declaration and Ukraine at the top of the agenda. Around it: Anthropic's 17% jump on its first Nasdaq session, the World Court's genocide verdict against Myanmar, Cyclone Akvan coming ashore in India, tanker attacks escalating off Hormuz, and a Houthi strike on Riyadh's tallest tower.
 
-The front page is composed with Python (PIL) from six AI-generated illustrations; all text is drawn with real fonts, so every headline stays sharp and legible at a glance. The program itself just copies the finished image to `/output/entry.png`.
+The page is built with Python and Pillow from six generated illustrations. Every word on it is typeset with real fonts, so the headlines stay crisp and readable even at a glance — no AI-rendered text anywhere. `main.py` does one small job: it copies the finished page to `/output/entry.png`.
 
-## The six stories
+## What's in the picture
 
-1. **Trump, Xi and Putin agree a peace declaration** — the first-ever three-way summit ends with a joint declaration; Ukraine first on the agenda.
-2. **Anthropic soars 17% in Nasdaq debut** — the AI maker closes near $97 after pricing its IPO at $83.
-3. **Myanmar guilty of genocide, World Court rules** — the ICJ finds state-sponsored genocide against the Rohingya.
-4. **Cyclone Akvan makes landfall** — the storm comes ashore on India's east coast; heavy rain in Odisha.
-5. **Hormuz tanker attacks escalate** — another tanker ablaze after hitting a mine; oil prices slide.
-6. **Houthi strike hits Riyadh's tallest tower** — the Saudi wealth fund HQ is struck as attacks widen; also, Putin rules out an energy truce after Ukraine hits the Crimea Bridge again.
+- **Lead — Shenzhen:** Trump, Xi and Putin agree a peace declaration after their first three-way summit.
+- **Markets — New York:** Anthropic closes near $97, up 17% from its $83 IPO price on its Nasdaq debut.
+- **The Hague:** the World Court rules Myanmar committed genocide against the Rohingya.
+- **India:** Cyclone Akvan makes landfall on the east coast, with heavy rain across Odisha.
+- **The Gulf:** another tanker is left ablaze after striking a mine off Hormuz, as oil prices slide.
+- **Also today:** a Houthi strike hits Riyadh's tallest tower, and Putin rules out an energy truce after the Crimea Bridge is hit again.
 
 ## Run it
 
 ```sh
 python3 main.py
 ```
+
+## Sources
+
+Every headline was checked against reporting of 20 November 2026 from AP, Reuters, BBC, AFP, the Japan Times, The Hindu, The Standard and NDTV. The summit declaration, the Anthropic debut, the ICJ verdict, the cyclone landfall and the Hormuz attacks were each confirmed by at least two independent outlets before they went on the page.
 
 ---
 
